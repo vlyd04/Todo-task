@@ -1,0 +1,59 @@
+# Node modules (for both client and server)
+node_modules/
+client/node_modules/
+server/node_modules/
+client/.env
+server/.env
+client/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+/node_modules
+
+# Environment variables
+.env
+client/.env
+
+# Build outputs
+/build
+client/build
+
+# IDE specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Coverage reports
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Test output
+/test-results
+/junit.xml
+
+# Others
+dist/
+tmp/
